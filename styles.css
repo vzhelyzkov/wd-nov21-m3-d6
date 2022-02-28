@@ -2,3 +2,14 @@
     padding:0px;
     margin:0px;
 }
+
+.genre {
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+    background-color: #E3F2FD;
+    padding: 3px;
+    border-radius: 0px 0px 8px 0px;
+    font-style: italic;
+    font-weight: bold;
+}
