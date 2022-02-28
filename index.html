@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Card</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<style>
+    .img-thumbnail {
+        padding:0px;
+        margin:0px;
+    }
+
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E3F2FD;">
+        <a class="navbar-brand" href="#">Hello There!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#aboutme">About me <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#favalbums">Favourite Music</a>
+            <a class="nav-item nav-link" href="#hallofshame">Hall of Shame</a>
+            <a class="nav-item nav-link" href="#collection">Collection</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container float-left" id="aboutme">
+           <div class="row">
+                <div class="col ml-2 mt-4">
+             <p> and welcome <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+              </svg> My name's Vladimir and as you'll see I like all kind of music as long as it's worth listening to <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+              </svg></p> 
+            </div>
+           </div>
+        </div>
+
+        <div class="container float-left ml-2 pt-3" id="favalbums">
+            <h6>Check My Favourite Albums</h6>
+            <div class="row pt-4">
+                 <div class="col-6 col-sm-4 col-lg-3">
+                    <div class="card" style="">
+                        <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-097-metallica-master-of-puppets.jpg?w=1000" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">'Master of Puppets'</h5>
+                          <p class="card-text">Metallica</p>
+                          <p class="card-text float-right"><em>54:47</em></p>
+
+                        </div>
+                      </div>
+               </div>
+               <div class="col-6 col-sm-4 col-lg-3">
+                <div class="card" style="">
+                    <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-086-The-Doors-The-Doors.jpg?w=1000" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">'The Doors'</h5>
+                      <p class="card-text">The Doors</p>
+                      <p class="card-text float-right"><em>44:48</em></p>
+
+                    </div>
+                  </div>
+           </div>
+           <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card" style="">
+                <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-084-AC_DC-Back-in-Black.jpg?w=1000" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">'Back in Black'</h5>
+                  <p class="card-text">AC/DC</p>
+                  <p class="card-text float-right"><em>42:11</em></p>
+
+                </div>
+              </div>
+       </div>
+       <div class="col-6 col-sm-4 col-lg-3">
+        <div class="card" style="">
+            <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-022-notorious-BIG-ready-to-die.jpg?w=1000" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">'Ready to Die'</h5>
+              <p class="card-text">The Notorious B.I.G.</p>
+              <p class="card-text float-right"><em>69:05</em></p>
+
+            </div>
+          </div>
+   </div>
+            </div>
+         </div>
+
+         <div class="container float-left ml-2 pt-3" id="hallofshame">
+            <h6>The Hall of Shame</h6>
+            <div class="row pt-4">
+                 <div class="col-6 col-sm-4 col-lg-3">
+                    <div class="card" style="">
+                        <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-496-Shakira-Donde-Estan-los-Ladrones.jpg?w=1000" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">'Dónde Están los Ladrones'</h5>
+                          <p class="card-text">Shakira</p>
+                          <p class="card-text float-right"><em>41:06</em></p>
+
+                        </div>
+                      </div>
+               </div>
+               <div class="col-6 col-sm-4 col-lg-3">
+                <div class="card" style="">
+                    <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-491-harry-styles-fine-line.jpg?w=1000" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">'Fine Line'</h5>
+                      <p class="card-text">Harry Styles</p>
+                      <p class="card-text float-right"><em>46:37</em></p>
+
+                    </div>
+                  </div>
+           </div>
+           <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card" style="">
+                <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-479-Selena-Amor-Prohibido.jpg?w=1000" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">'Amor Prohibido'</h5>
+                  <p class="card-text">Selena</p>
+                  <p class="card-text float-right"><em>35:27</em></p>
+                   
+                </div>
+              </div>
+       </div>
+       <div class="col-6 col-sm-4 col-lg-3">
+        <div class="card" style="">
+            <img class="card-img-top" src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-474-Big-Star-1-Record.jpg?w=1000" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">'#1 Record'</h5>
+              <p class="card-text">Big Star</p>
+              <p class="card-text float-right"><em>37:03</em></p>
+              
+            </div>
+          </div>
+   </div>
+            </div>
+         </div>
+
+         <div class="container float-left ml-2 pt-3" id="collection">
+            <h6>The Collection</h6>
+            <div class="row pt-4">
+                <div class="col-6 col-sm-4 col-lg-3 p-0">
+         <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-003-JoniMitchell-BLUE-HR.jpg?w=1000" class="img-thumbnail" alt="...">
+         </div>
+         <div class="col-6 col-sm-4 col-lg-3 p-0">
+            <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-002-Beach-Boys-PET-SOUNDS-update.jpg?w=1000" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col-6 col-sm-4 col-lg-3 p-0">
+                <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-004-Stevie-Wonder-SONGS-IN-THE-KEY-OF-LIFE.jpg?w=1000" class="img-thumbnail" alt="...">
+                </div>
+                <div class="col-6 col-sm-4 col-lg-3 p-0">
+                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-005-Beatles-ABBEY-ROAD.jpg?w=1000" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="col-6 col-sm-4 col-lg-3 p-0">
+                        <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-006-Nirvana-NEVERMIND-HR.jpg?w=1000" class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-3 p-0">
+                            <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-007-Fleetwood-Mac-RUMOURS.jpg?w=1000" class="img-thumbnail" alt="...">
+                            </div>
+                            <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-008-Prince-PURPLE-RAIN.jpg?w=1000" class="img-thumbnail" alt="...">
+                                </div>
+                                <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-009-Bob-Dylan-BLOOD-ON-THE-TRACKS.jpg?w=1000" class="img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                        <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-010-Lauryn-Hill-MISEDUCATION.jpg?w=1000" class="img-thumbnail" alt="...">
+                                        </div>
+                                        <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                            <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-011-BeatlesREVOLVER-updated.jpg?w=1000" class="img-thumbnail" alt="...">
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-012-MichaelJacksonThriller.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                </div>
+                                                <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-013-ArethaFrankNEVERLOVED-H.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                    </div>
+                                                    <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                        <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-014-Rolling-Stones-EXILE-ON-MAIN-ST.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                        </div>
+                                                        <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                            <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-015-Public-Enemy-IT-TAKES-A-NATION-H.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                            </div>
+                                                            <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                                <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/016-Clash-LONDON-CALLING.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                                </div>
+                                                                <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-017-Kanye-My-Beautiful-Dark-Twisted-Fantasy.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                                    </div>
+                                                                    <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                                        <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-018-Bob-Dylan-HWY-61-REVISITED-updated.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                                        </div>
+                                                                        <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                                            <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-019-Kendrick-Lamar-To-Pimp-a-Butterfly.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                                            </div>
+                                                                            <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                                                <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-020-Radiohead-KID-A.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                                                </div>
+                                                                                <div class="col-6 col-sm-4 col-lg-3 p-0">
+                                                                                    <img src="https://www.rollingstone.com/wp-content/uploads/2020/09/R1344-001-Marvin-Gaye-WHATS-GOING-ON.jpg?w=1000" class="img-thumbnail" alt="...">
+                                                                                    </div>
+         </div>
+         </div>
+
+         
+
+</body>
+</html>
